@@ -8,10 +8,10 @@ import Login from '../components/auth/Login';
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-8 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200 w-full max-w-md">
           <Login />
           <div className="mt-6 text-center">
             <Link href="/forgot-password" className="text-sm text-blue-600 hover:text-blue-500">

@@ -16,10 +16,10 @@ export default function ForgotPassword() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-8 flex items-center justify-center">
-        <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <div className="bg-white p-8 rounded-lg shadow-sm border border-gray-200 w-full max-w-md">
           <div>
             <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
               Reset your password

@@ -50,7 +50,7 @@ export default function Pricing() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-8">
         <div className="text-center mb-12">
@@ -66,7 +66,7 @@ export default function Pricing() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`rounded-lg shadow-lg overflow-hidden ${
+              className={`rounded-lg shadow-sm overflow-hidden ${
                 plan.popular ? 'ring-2 ring-blue-500 relative' : 'border border-gray-200'
               }`}
             >
